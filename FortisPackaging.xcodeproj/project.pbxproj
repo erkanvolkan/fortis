@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE92A86923DFD59C00AFC31B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92A86823DFD59C00AFC31B /* AppDelegate.swift */; };
+		DE92A86B23DFD59C00AFC31B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92A86A23DFD59C00AFC31B /* SceneDelegate.swift */; };
+		DE92A86D23DFD59C00AFC31B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92A86C23DFD59C00AFC31B /* ContentView.swift */; };
+		DE92A86F23DFD5BC00AFC31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE92A86E23DFD5BC00AFC31B /* Assets.xcassets */; };
+		DE92A87223DFD5BC00AFC31B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE92A87123DFD5BC00AFC31B /* Preview Assets.xcassets */; };
+		DE92A87523DFD5BC00AFC31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE92A87323DFD5BC00AFC31B /* LaunchScreen.storyboard */; };
+		DE92A87D23DFDCDB00AFC31B /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92A87C23DFDCDB00AFC31B /* GalleryView.swift */; };
+		DE92A87F23DFE32300AFC31B /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92A87E23DFE32300AFC31B /* MainPage.swift */; };
+		DE92A88123DFE35900AFC31B /* ContactPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92A88023DFE35900AFC31B /* ContactPage.swift */; };
+		DE92A88323E2454B00AFC31B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92A88223E2454B00AFC31B /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE92A86523DFD59C00AFC31B /* FortisPackaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortisPackaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE92A86823DFD59C00AFC31B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE92A86A23DFD59C00AFC31B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE92A86C23DFD59C00AFC31B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE92A86E23DFD5BC00AFC31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE92A87123DFD5BC00AFC31B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE92A87423DFD5BC00AFC31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE92A87623DFD5BC00AFC31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE92A87C23DFDCDB00AFC31B /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		DE92A87E23DFE32300AFC31B /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		DE92A88023DFE35900AFC31B /* ContactPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPage.swift; sourceTree = "<group>"; };
+		DE92A88223E2454B00AFC31B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE92A86223DFD59C00AFC31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE92A85C23DFD59B00AFC31B = {
+			isa = PBXGroup;
+			children = (
+				DE92A86723DFD59C00AFC31B /* FortisPackaging */,
+				DE92A86623DFD59C00AFC31B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE92A86623DFD59C00AFC31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE92A86523DFD59C00AFC31B /* FortisPackaging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE92A86723DFD59C00AFC31B /* FortisPackaging */ = {
+			isa = PBXGroup;
+			children = (
+				DE92A86823DFD59C00AFC31B /* AppDelegate.swift */,
+				DE92A86A23DFD59C00AFC31B /* SceneDelegate.swift */,
+				DE92A86C23DFD59C00AFC31B /* ContentView.swift */,
+				DE92A87E23DFE32300AFC31B /* MainPage.swift */,
+				DE92A88023DFE35900AFC31B /* ContactPage.swift */,
+				DE92A88223E2454B00AFC31B /* CardView.swift */,
+				DE92A87C23DFDCDB00AFC31B /* GalleryView.swift */,
+				DE92A86E23DFD5BC00AFC31B /* Assets.xcassets */,
+				DE92A87323DFD5BC00AFC31B /* LaunchScreen.storyboard */,
+				DE92A87623DFD5BC00AFC31B /* Info.plist */,
+				DE92A87023DFD5BC00AFC31B /* Preview Content */,
+			);
+			path = FortisPackaging;
+			sourceTree = "<group>";
+		};
+		DE92A87023DFD5BC00AFC31B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE92A87123DFD5BC00AFC31B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE92A86423DFD59C00AFC31B /* FortisPackaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE92A87923DFD5BC00AFC31B /* Build configuration list for PBXNativeTarget "FortisPackaging" */;
+			buildPhases = (
+				DE92A86123DFD59C00AFC31B /* Sources */,
+				DE92A86223DFD59C00AFC31B /* Frameworks */,
+				DE92A86323DFD59C00AFC31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortisPackaging;
+			productName = FortisPackaging;
+			productReference = DE92A86523DFD59C00AFC31B /* FortisPackaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE92A85D23DFD59B00AFC31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ErkanVolkan;
+				TargetAttributes = {
+					DE92A86423DFD59C00AFC31B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = DE92A86023DFD59B00AFC31B /* Build configuration list for PBXProject "FortisPackaging" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE92A85C23DFD59B00AFC31B;
+			productRefGroup = DE92A86623DFD59C00AFC31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE92A86423DFD59C00AFC31B /* FortisPackaging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE92A86323DFD59C00AFC31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE92A87523DFD5BC00AFC31B /* LaunchScreen.storyboard in Resources */,
+				DE92A87223DFD5BC00AFC31B /* Preview Assets.xcassets in Resources */,
+				DE92A86F23DFD5BC00AFC31B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE92A86123DFD59C00AFC31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE92A88323E2454B00AFC31B /* CardView.swift in Sources */,
+				DE92A87F23DFE32300AFC31B /* MainPage.swift in Sources */,
+				DE92A86923DFD59C00AFC31B /* AppDelegate.swift in Sources */,
+				DE92A86B23DFD59C00AFC31B /* SceneDelegate.swift in Sources */,
+				DE92A88123DFE35900AFC31B /* ContactPage.swift in Sources */,
+				DE92A86D23DFD59C00AFC31B /* ContentView.swift in Sources */,
+				DE92A87D23DFDCDB00AFC31B /* GalleryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE92A87323DFD5BC00AFC31B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE92A87423DFD5BC00AFC31B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE92A87723DFD5BC00AFC31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE92A87823DFD5BC00AFC31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE92A87A23DFD5BC00AFC31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FortisPackaging/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C354SG742;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FortisPackaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkanvolkan.FortisPackaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE92A87B23DFD5BC00AFC31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FortisPackaging/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C354SG742;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FortisPackaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erkanvolkan.FortisPackaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE92A86023DFD59B00AFC31B /* Build configuration list for PBXProject "FortisPackaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE92A87723DFD5BC00AFC31B /* Debug */,
+				DE92A87823DFD5BC00AFC31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE92A87923DFD5BC00AFC31B /* Build configuration list for PBXNativeTarget "FortisPackaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE92A87A23DFD5BC00AFC31B /* Debug */,
+				DE92A87B23DFD5BC00AFC31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE92A85D23DFD59B00AFC31B /* Project object */;
+}
